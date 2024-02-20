@@ -1,4 +1,5 @@
 # THREE.js GifTexture
+[![npm version](https://img.shields.io/npm/v/threejs-gif-texture.svg?logo=threedotjs)](https://www.npmjs.com/package/threejs-gif-texture)
 
 ![Logo](./demo.gif)
 
