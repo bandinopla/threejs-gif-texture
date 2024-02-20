@@ -94,7 +94,7 @@ class GifData extends THREE.EventDispatcher<GifEvents>
 }
 
 /**
- * Loads the gif and returns a `GifTexture`
+ * Loads the gif and returns a new `GifTexture`
  * @param url the url to the .gif to load
  * @returns 
  */

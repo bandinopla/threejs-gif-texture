@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "threejs-gif-texture",
   "description": "Load a gif as a Texture in THREEjs",
   "repository": {
@@ -19,12 +19,12 @@
   },
   "main": "./dist/three-giftexture.js",
   "module": "./dist/three-giftexture.mjs",
-  "types": "./dist/three-giftexture.d.ts",
+  "types": "./dist/THREE_GifTexture.d.ts",
   "exports": {
     ".": {
       "import": {
         "default": "./dist/three-giftexture.mjs",
-        "types": "./dist/three-giftexture.d.ts"
+        "types": "./dist/THREE_GifTexture.d.ts"
       },
       "require": "./dist/three-giftexture.js"
     }
