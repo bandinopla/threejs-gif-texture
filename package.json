@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "name": "threejs-gif-texture",
+  "description": "Load a gif as a Texture in THREEjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bandinopla/threejs-gif-texture.git"
+  },
+  "packageManager": "pnpm@8.14.1",
+  "author": {
+    "name": "Pablo Bandinopla", 
+    "url": "https://github.com/bandinopla"
+  },
+  "homepage": "https://github.com/ryansonshine/threejs-gif-texture#readme",
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc"
+  },
+  "main": "./dist/three-giftexture.js",
+  "module": "./dist/three-giftexture.mjs",
+  "types": "./dist/three-giftexture.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "default": "./dist/three-giftexture.mjs",
+        "types": "./dist/three-giftexture.d.ts"
+      },
+      "require": "./dist/three-giftexture.js"
+    }
+  },
+  "files": [
+    "./dist/three-giftexture.mjs",
+    "./dist/three-giftexture.js",
+    "./dist/*.d.ts"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/three": "^0.161.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  },
+  "keywords": [
+    "gif",
+    "three",
+    "threejs",
+    "3d",
+    "animation", 
+    "Texture"
+  ],
+  "dependencies": {
+    "gifuct-js": "^2.1.2"
+  },
+  "peerDependencies": {
+    "three": ">=0.160.1"
+  }
+}
